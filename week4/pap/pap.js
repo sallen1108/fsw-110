@@ -10,7 +10,7 @@ document.getElementById("box").addEventListener("mousedown", function() {
     document.getElementById("box").style.backgroundColor = "red";
 })
 
-document.getElementById("box").addEventListener("mouseleave", function() {
+document.getElementById("box").addEventListener("mouseup", function() {
     document.getElementById("box").style.backgroundColor = "yellow";
 })
 
