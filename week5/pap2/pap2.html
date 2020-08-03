@@ -1,0 +1,29 @@
+<html>
+    <head></head>
+    <body>
+        <form name = "myForm">
+            <input type="text" id="text-input" placeholder="First name">
+            <input type="text" id="text-input2" placeholder="Last name">
+            <input type="number" id="text-input3" placeholder="Age">
+
+            Male:   <input type="radio" name="gender" value="Male"/>
+            Female: <input type="radio" name="gender" value="Female"/>
+            Other: <input type="radio" name="gender" value="Other"/>
+        
+
+            Where would you like to travel?
+            <select name="location">
+                <option value="Munich">Munich</option>
+                <option value="London">London</option>
+                <option value="Glasgow">Glasgow</option>
+            </select>
+
+            Do you have any dietary restrictions?
+            Vegetarian: <input type="checkbox" value="Vegetarian" name="diet">
+            Lactose Free: <input type="checkbox" value="Lactose Free" name="diet">
+            Gluten Free: <input type="checkbox" value="Gluten Free" name="diet">
+            <button onlick="myAlert()">Submit</button>
+        </form>
+        <script src="pap2.js"></script>
+    </body>
+</html>
